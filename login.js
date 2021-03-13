@@ -1,3 +1,6 @@
-var ran
-ran = Math.round(Math.random()*50000)
-document.write("Usted es el visitante " + ran + " de esta página.")
+
+var hoy = new Date();
+var fecha = hoy.getDate() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getFullYear();
+document.write(" Hoy  " +fecha+ "  que sea un buen dia para vos ") 
+
+
