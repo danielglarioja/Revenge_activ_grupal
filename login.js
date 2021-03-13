@@ -1,11 +1,6 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
 
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
+var hoy = new Date();
+var fecha = hoy.getDate() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getFullYear();
+document.write(" Hoy  " +fecha+ "  que sea un buen dia para vos ") 
 
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
-});
+
